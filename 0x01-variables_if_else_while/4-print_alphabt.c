@@ -3,7 +3,6 @@
  * main - it prirnts the alphabet in lowercase,
  * followed by a new line 
  * except q and e
- *
  * Return: Always 0 (onyiego)
  */
 int main(void)
@@ -15,15 +14,15 @@ int main(void)
 
 	{
 
-		if (alp != 'e' && alp != 'q')
+	if (alp != 'e' && alp != 'q')
 
-		{
+	{
 
-			putchar (alp);
+	putchar (alp);
 
-		}
+	}
 
-		alp++;
+	alp++;
 
 	}
 
