@@ -20,7 +20,7 @@ int main(void)
 
 	}
 
-	if (x !+ 57)
+	if (x != 57)
 
 	{
 
