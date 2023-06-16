@@ -6,7 +6,6 @@
  *
  * Return: Always 0 (onyiego)
  */
-
 int main(void)
 
 {
@@ -15,18 +14,21 @@ int main(void)
 	while (alp <= 'z')
 
 	{
-	if (alp != 'e' && alp != 'q')
-	{
 
-	putchar(alp);
-	}
+		if (alp != 'e' && alp != 'q')
 
-	alp++;
+		{
+
+			putchar (alp);
+
+		}
+
+		alp++;
 
 	}
 
 	putchar('\n');
 
 	return (0);
-}
 
+}
