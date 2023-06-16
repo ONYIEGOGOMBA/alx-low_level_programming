@@ -3,7 +3,7 @@
  * main - prints all single digit numbers of base 10 starting from 0,
  * followed by a new line
  *
- * return: always 0
+ * Return: always 0
  *
  */
 
@@ -13,7 +13,7 @@ int main(void)
 
 	int x;
 
-	for (x = 38; x < 48; x++)
+	for (x = 0; x < 10; x++)
 
 
 	{
