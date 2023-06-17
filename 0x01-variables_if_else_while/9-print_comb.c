@@ -12,13 +12,13 @@ int main(void)
 
 	int x;
 
-	for (x = 48; x < 58; x++)
+	for (x = 0; x < 9; x++)
 
 	{
 
 		putchar((x % 10) + '0');
 
-	if (x == 58)
+	if (x == 9)
 
 	continue;
 
