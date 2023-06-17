@@ -16,13 +16,11 @@ int main(void)
 
 	{
 
-		putchar(x);
+		putchar((x % 10) + '0');
 
-	}
+	if (x == 58)
 
-	if (x != 57)
-
-	{
+	continue;
 
 		putchar(',');
 
