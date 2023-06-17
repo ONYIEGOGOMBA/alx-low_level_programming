@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - it prints all possible different combinations of two digits.
  *
- *main - Prints all possible combinations of two different digits,
- *in ascending order.
+ * Return: always 0
  *
- *Return: Always 0.
  */
 int main(void)
 {
