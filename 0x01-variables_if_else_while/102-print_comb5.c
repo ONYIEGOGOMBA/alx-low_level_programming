@@ -33,8 +33,8 @@ int main(void)
 
 				putchar((g % 10) + 48);
 
-				if (b != 98 || g != 99)
-				
+			if (b != 98 || g != 99)
+
 				{
 					putchar(',');
 
