@@ -25,26 +25,18 @@ int main(void)
 			{
 
 				putchar((b / 10) + 48);
-
 				putchar((b % 10) + 48);
-
 				putchar(' ');
-
 				putchar((g / 10) + 48);
-
 				putchar((g % 10) + 48);
-
-			               if (b != 98 || g != 99)
+					if (b != 98 || g != 99)
 
 				{
 					putchar(',');
-
 					putchar(' ');
 
 				}
-
 			}
-
 		}
 
 	}
