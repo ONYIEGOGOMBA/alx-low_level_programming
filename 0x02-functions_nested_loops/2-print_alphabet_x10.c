@@ -15,13 +15,16 @@ void print_alphabet_x10(void)
 
 	char alp;
 
-	while(num++ <= 9)
+	while (num < 0)
 
 	{
 		for (alp = 'a'; alp <= 'z';)
 			_putchar(alp);
+		num++
 
 		_putchar('\n');
+
+		alp++
 
 	}
 
