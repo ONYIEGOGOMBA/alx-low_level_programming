@@ -20,15 +20,15 @@ void print_alphabet_x10(void)
 	{
 		alp = 'a';
 
-		while (alp <= 'z';)
+		while (alp <= 'z')
 		{
 			_putchar(alp);
-		num++
+		num++;
 		}
 
 		_putchar('\n');
 
-		alp++
+		alp++;
 
 	}
 
