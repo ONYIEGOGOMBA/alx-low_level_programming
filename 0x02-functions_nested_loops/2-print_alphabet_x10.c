@@ -23,12 +23,12 @@ void print_alphabet_x10(void)
 		while (alp <= 'z')
 		{
 			_putchar(alp);
-		num++;
+			alp++;
 		}
 
 		_putchar('\n');
 
-		alp++;
+		num++;
 
 	}
 
