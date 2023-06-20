@@ -18,6 +18,6 @@ int _abs(int)
 	}
 
 	else
-		return (-n);
+		return (-x);
 
 }
