@@ -6,10 +6,7 @@
  *
  */
 
-int _abs(int)
-
-{
-	int x;
+int _abs(int x)
 
 	if (x >= 0)
 	
