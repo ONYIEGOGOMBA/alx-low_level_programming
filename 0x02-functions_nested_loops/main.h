@@ -1,3 +1,8 @@
-extern void print_alphabet(void);{
-	_putchar
-}
+#ifndef main.h
+#define main.h
+
+void print_alphabet(void);
+
+int _putchar(char);
+
+#endif
