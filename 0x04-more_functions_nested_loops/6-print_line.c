@@ -1,7 +1,7 @@
 #include "main."
 /**
  * print_line - it draws a straight line in the terminal.
- *
+ * @n: The number of _ characters to be printed.
  */
 
 void print_line(int n)
