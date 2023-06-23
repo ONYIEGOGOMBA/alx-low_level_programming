@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 /**
  * print_line - it draws a straight line in the terminal.
  * @n: The number of _ characters to be printed.
