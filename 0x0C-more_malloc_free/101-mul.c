@@ -1,28 +1,26 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
 /**
  * _memset - fills memory with a constant byte
- *
  * @s: input pointer that represents memory block
  *     to fill
  * @b: characters to fill/set
  * @n: number of bytes to be filled
- *
  * Return: pointer to the filled memory area
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int x = 0;
+	unsigned int i = 0;
 
-	while (x < n)
+	while (i < n)
 	{
-		s[x] = b;
-	x++;
+		s[i] = b;
+		i++;
 	}
 	return (s);
 }
+
 /**
  * _calloc - function that allocates memory
  *           for an array using memset
@@ -30,6 +28,7 @@ char *_memset(char *s, char b, unsigned int n)
  * @size: size of each element
  * Return: pointer to new allocated memory
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
@@ -43,15 +42,18 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	return (ptr);
 }
+
+
 /**
  * multiply - initialize array with 0 byte
  * @s1: string 1
  * @s2: string 2
  * Return: nothing
  */
+
 void multiply(char *s1, char *s2)
 {
-	int x, l1, l2, total_l, f_digit, s_digit, res = 0, tmp;
+	int i, l1, l2, total_l, f_digit, s_digit, res = 0, tmp;
 	char *ptr;
 	void *temp;
 
@@ -85,11 +87,13 @@ void multiply(char *s1, char *s2)
 		total_l--;
 	}
 
-	for (x = 0; x < total_l; x++)
-		printf("%i", ptr[x]);
+	for (i = 0; i < total_l; i++)
+		printf("%i", ptr[i]);
 	printf("\n");
 	free(temp);
 }
+
+
 /**
  * main - Entry point
  * Description: a program that multiplies
