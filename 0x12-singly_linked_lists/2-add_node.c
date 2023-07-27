@@ -14,7 +14,7 @@ list_t *add_node(list_t **head, const char *str)
 	size_t str_len = 0;
 
 	if (str == NULL)
-		strlen = 0;
+		str_len = 0;
 
 	while (str[str_len] != '\0')
 		str_len++;
