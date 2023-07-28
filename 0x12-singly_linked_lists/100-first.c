@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * premain - Functions that run before main
+ * pre_main - Functions that run before main
  * Return: nothing
  */
 void __attribute__((constructor)) pre_main()
