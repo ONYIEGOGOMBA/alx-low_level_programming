@@ -13,10 +13,10 @@ size_t print_listint_safe(const listint_t *head)
 	if (head != NULL)
 	{
 		cur = *head;
-		while ((temp = cur) != NULL)
+		while ((tem = cur) != NULL)
 		{
 			cur = cur->next;
-			free(temp);
+			free(tem);
 		}
 		*head = NULL;
 	}
