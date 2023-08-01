@@ -11,7 +11,7 @@ int main(void)
 	/* add_node(&head, 2); */
 	/* add_node(&head, 3); */
 	size_t num_nodes = print_listint(head);
-	printf("Number of nodes: %zu\n", num_nodes);
+	printf("Number of nodes: %lu\n", (unsigned long)num_nodes);
 
 	return (0);
 }
