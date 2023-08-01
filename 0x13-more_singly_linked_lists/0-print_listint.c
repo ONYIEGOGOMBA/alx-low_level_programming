@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_listsinit - prints all elements of a listinit_t list
  * @h: pointer to the head of the list
@@ -7,7 +8,7 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t n_count = 0;
+	size_t n_count = 1;
 
 	if (h == NULL)
 		return (0);
