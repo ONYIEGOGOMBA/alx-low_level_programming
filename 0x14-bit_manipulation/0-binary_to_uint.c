@@ -8,10 +8,10 @@
 
 unsigned int binary_to_uint(const char *b)
 {
+	unsigned int final = 0;
+
 	if (b == NULL)
 		return (0);
-
-	unsigned int final = 0;
 
 	while (*b != '\0')
 	{
