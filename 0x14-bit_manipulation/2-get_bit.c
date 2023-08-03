@@ -7,10 +7,10 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
+	unsigned long int mas = 1UL << index;
+
 	if (index >= sizeof(unsigned long int) * 8)
 		return (-1);
-
-	unsigned long int mas = 1UL << index;
 
 	return ((n & mas) != 0);
 }
