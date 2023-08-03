@@ -9,13 +9,15 @@ void _putchar(char c);
 
 void print_binary(unsigned long int n)
 {
+	unsigned long int mas = 1UL << (sizeof(unsigned long int) * 8 - 1);
+
+	int start = 0;
+
 	if (n == 0)
 	{
 		_putchar('0');
 	return;
 	}
-	unsigned long int mas = 1UL << (sizeof(unsigned long int) * 8 - 1);
-	int start = 0;
 
 	while (mas > 0)
 	{
