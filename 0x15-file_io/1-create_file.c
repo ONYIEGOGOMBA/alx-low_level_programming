@@ -4,6 +4,22 @@
 #include "main.h"
 
 /**
+ * _strlen - Calculate the length of a string
+ * @str: The input string
+ * Return: The length of the string
+ */
+int _strlen(char *str)
+{
+	int len = 0;
+
+	while (str[len] != '\0')
+	{
+	 len++;
+	}
+	return (len);
+}
+
+/**
  * create_file - append to file
  * @filename: path to file
  * @text_content: content
@@ -45,22 +61,4 @@ int create_file(const char *filename, char *text_content)
 	close(bg);
 	free(deb);
 	return (1);
-}
-
-/**
- * _strlen - len
- *
- * @s: is a pointer to a char
- *
- * Return: Always 0.
- */
-int _strlen(const char *s)
-{
-	int g = 0;
-
-	while (*(s + g) != '\0')
-	{
-		g++;
-	}
-	return (g);
 }
