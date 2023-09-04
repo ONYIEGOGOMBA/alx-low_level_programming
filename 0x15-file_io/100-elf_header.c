@@ -186,7 +186,7 @@ void elf_abivers(const unsigned char *buffer)
 /**
  * elf_type - print ELF type
  * @buffer: the ELF header
- * @big_endian: endianness (big endian if non-zero)
+ * @big_gomba: endianness (big endian if non-zero)
  */
 void elf_type(const unsigned char *buffer, int big_gomba)
 {
@@ -220,7 +220,7 @@ void elf_type(const unsigned char *buffer, int big_gomba)
  * elf_entry - print entry point address
  * @buffer: string containing the entry point address
  * @bit_mode: bit mode (32 or 64)
- * @big_endian: endianness (big endian if non-zero)
+ * @big_gomba: endianness (big endian if non-zero)
  */
 void elf_entry(const unsigned char *buffer, size_t bit_mode, int big_gomba)
 {
