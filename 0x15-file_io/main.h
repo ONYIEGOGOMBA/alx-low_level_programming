@@ -1,9 +1,10 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef IO_
+#define IO_
 
 #include <stddef.h>
 
-int _putchar(char c);
+int _putchar(int c);
+ssize_t read_textfile(const char *filename, size_t letters);
 void *custom_malloc(size_t size);
 void custom_free(void *ptr);
 void custom_exit(int status);

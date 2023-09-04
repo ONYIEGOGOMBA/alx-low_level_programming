@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <unistd.h>
+#include <stddef.h>
 #include <fcntl.h>
 /**
  * read_textfile - reads the textfile
@@ -8,7 +9,6 @@
  * @letters: the size
  * Return: characters read.
  */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int bg;
